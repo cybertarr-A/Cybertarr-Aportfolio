@@ -15,7 +15,7 @@ const projectsData = [
         tech: ['FastAPI', 'PyTorch', 'Next.js', 'Docker'],
         link: 'https://github.com/cybertarr-A/biosync',
         metrics: ["Sub-50ms inference", "Stream ingestion via Redis", "End-to-End Containerized"],
-        color: "#00E6FF" // primary
+        color: "#00E6FF"
     },
     {
         id: 2,
@@ -25,7 +25,7 @@ const projectsData = [
         tech: ['AI', 'Kubernetes', 'RAG', 'Vision'],
         link: 'https://github.com/cybertarr-A/OpsNerve-Multimodal-Autonomous-SRE-Agent',
         metrics: ["Vision+Text diagnostic", "Automated k8s patching", "Runbook Retrieval"],
-        color: "#8A3FFC" // secondary
+        color: "#8A3FFC"
     },
     {
         id: 3,
@@ -35,7 +35,7 @@ const projectsData = [
         tech: ['C++', 'Security', 'Penetration'],
         link: 'https://github.com/cybertarr-A/CYBERSCANNER',
         metrics: ["High-speed networking", "Modular payload delivery", "Memory-safe execution"],
-        color: "#FF003C" // accent
+        color: "#FF003C"
     },
     {
         id: 4,
@@ -45,7 +45,7 @@ const projectsData = [
         tech: ['Python', 'AI', 'Security', 'Terminal'],
         link: 'https://github.com/cybertarr-A/VOIDNET',
         metrics: ["AI predictive cracking", "Terminal interactivity", "Heuristic analysis"],
-        color: "#00E6FF" 
+        color: "#00E6FF"
     },
     {
         id: 5,
@@ -55,7 +55,7 @@ const projectsData = [
         tech: ['FastAPI', 'React', 'YOLO', 'AI'],
         link: 'https://github.com/cybertarr-A/SentinelX',
         metrics: ["Real-time anomaly scoring", "YOLOv8 integration", "Live WebSocket dashboard"],
-        color: "#8A3FFC" 
+        color: "#8A3FFC"
     },
     {
         id: 6,
@@ -65,7 +65,7 @@ const projectsData = [
         tech: ['AI', 'Automation', 'Security', 'Bug Bounty'],
         link: 'https://github.com/cybertarr-A/CyberWarriorV2',
         metrics: ["Automated intel gathering", "Real-time scanning", "Vulnerability classification"],
-        color: "#FF003C" 
+        color: "#FF003C"
     },
     {
         id: 7,
@@ -75,7 +75,7 @@ const projectsData = [
         tech: ['Python', 'Stable Diffusion', 'AI'],
         link: 'https://github.com/cybertarr-A/Image-Generator',
         metrics: ["Diffusion sampling", "VQGAN+CLIP embeddings", "Colab-optimized"],
-        color: "#00E6FF" 
+        color: "#00E6FF"
     },
     {
         id: 8,
@@ -88,32 +88,32 @@ const projectsData = [
         color: "#00FFA3"
     },
     {
-    id: 9,
-    title: 'CyberWarrior V4',
-    category: 'AI / Cybersecurity / Autonomous Systems',
-    description: 'Groq-powered autonomous bug bounty AI system with swarm intelligence, real-time vulnerability discovery, exploit chain reasoning, and advanced RAG-based threat analysis.',
-    tech: [
-        'FastAPI',
-        'Groq Cloud',
-        'FAISS',
-        'LLM',
-        'Redis',
-        'Nuclei',
-        'Nmap',
-        'Next.js'
-    ],
-    link: 'https://github.com/cybertarr-A/cyberwarrior_v4',
-    metrics: [
-        "Swarm-based parallel scanning",
-        "Groq ultra-fast AI reasoning",
-        "Attack chain generation engine",
-        "RAG-powered threat intelligence",
-        "Autonomous recon → exploit pipeline",
-        "HackerOne-style report generation"
-    ],
-    color: "#FF003C"
-},
-        {
+        id: 9,
+        title: 'CyberWarrior V4',
+        category: 'AI / Cybersecurity / Autonomous Systems',
+        description: 'Groq-powered autonomous bug bounty AI system with swarm intelligence, real-time vulnerability discovery, exploit chain reasoning, and advanced RAG-based threat analysis.',
+        tech: [
+            'FastAPI',
+            'Groq Cloud',
+            'FAISS',
+            'LLM',
+            'Redis',
+            'Nuclei',
+            'Nmap',
+            'Next.js'
+        ],
+        link: 'https://github.com/cybertarr-A/cyberwarrior_v4',
+        metrics: [
+            "Swarm-based parallel scanning",
+            "Groq ultra-fast AI reasoning",
+            "Attack chain generation engine",
+            "RAG-powered threat intelligence",
+            "Autonomous recon → exploit pipeline",
+            "HackerOne-style report generation"
+        ],
+        color: "#FF003C"
+    },
+    {
         id: 10,
         title: 'BrainBase AI',
         category: 'AI / Knowledge Systems / Cognitive Intelligence',
@@ -164,7 +164,6 @@ const projectsData = [
         color: "#FF6B00"
     }
 ];
-
 
 export function ProjectsExplorer() {
   const [selectedId, setSelectedId] = useState<number | null>(null);
